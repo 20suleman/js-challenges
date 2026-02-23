@@ -5,7 +5,7 @@
     button.addEventListener("click", function () {
         const text = textArea.value.toLowerCase();
         const word = searchInput.value.toLowerCase();
-
+        
         if (word && text.includes(word)) {
             alert("Word exists");
         } else {
